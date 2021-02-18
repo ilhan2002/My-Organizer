@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="fonts.css">
+</head>
+<body>               
+	
+	<div class="container">
+		<div class='head'>
+			<div class='day'>
+				<p>Сегодня</p>
+				<p>Пн 8 фев</p>
+			</div>
+			<div class='button'>
+				<img src="images/plus.png" alt="">
+				<p>Добавить</p>
+			</div>  
+		</div>	
+		<div class="add">
+			<div class="space">
+				<input placeholder=" Например, выити на утреннюю пробежку в 7" type="text">
+				<div class='buttons'>
+					<div class="button">
+						<img src="images/calendar.png" alt="">Сегодня</div>
+					<div class="button">
+						<img src="images/folder.png" alt="">
+						Входящие
+					</div>
+					<div class="button">
+						<img src="images/info.png" alt="">
+						Приоритет
+					</div>
+				</div>
+			</div>	
+			<div class="buttons">
+				<div class="button">Добавить</div>
+				<div class="button">Отмена</div>
+			</div>
+		</div>
+		<ul onmousedown="return false" onselectstart="return false" class='events'>
+			<li class='active'>
+				<section>
+					<div>
+						<img src="images/ok.png" alt="">
+					</div>
+					<div></div>
+					<div>
+						<p>Совершить сделку по продаже</p>
+					</div>
+				</section>
+				<div class="opt">
+					<img src="images/opt.png" alt="">
+				</div>
+			</li>
+			<li>
+				<section>	
+					<div>
+						<img src="images/ok.png" alt="">
+					</div>
+					<div></div>
+					<div>
+						<p>Отправить 3 посылки</p>
+				</section>	
+				<div class="opt">
+					<img src="images/opt.png" alt="">
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<script type="text/javascript" src='jquery.js'></script>
+	<script type="text/javascript" src='script.js'></script>
+</body>
+</html>
